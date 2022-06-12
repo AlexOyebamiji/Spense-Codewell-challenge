@@ -1,4 +1,6 @@
 import phoneMockupMobile from "../Spense Starter Files/Assets/Phone Mockup (Mobile).png";
+import phoneMockupTablet from "../Spense Starter Files/Assets/Phone Mockup (Tablet).png";
+import phoneMockupDesktop from "../Spense Starter Files/Assets/Phone Mockup (Desktop).png";
 
 function ThirdSection() {
   return (
@@ -16,7 +18,15 @@ function ThirdSection() {
           <p className="underline font-semibold">Learn more about Escrow</p>
         </div>
         <div>
-          <img src={phoneMockupMobile} alt="phone mockup" />
+          <div className="md:hidden lg:hidden">
+            <img src={phoneMockupMobile} alt="phone mockup" id="i" />
+          </div>
+          <div className="hidden md:block lg:hidden">
+            <img src={phoneMockupTablet} alt="phone mockup Tablet" />
+          </div>
+          <div className="hidden md:hidden lg:block">
+            <img src={phoneMockupDesktop} alt="phone mockup Desktop" />
+          </div>
         </div>
       </div>
     </div>

@@ -1,11 +1,21 @@
 import HeroImage from "../Spense Starter Files/Assets/Hero Image (Mobile).png";
+import HeroImageTablet from "../Spense Starter Files/Assets/Hero Image (Tablet).png";
+import HeroImageDesktop from "../Spense Starter Files/Assets/Hero Image (Desktop).png";
 import Checkmark from "../Spense Starter Files/Assets/Checkmark.svg";
 
 function FirstSection() {
   return (
     <div className="py-0 px-5 bg-slate-200">
       <div className="pt-8">
-        <img src={HeroImage} alt="" />
+        <div className="md:hidden lg:hidden">
+          <img src={HeroImage} alt="Hero Image Mobile" />
+        </div>
+        <div className="hidden md:block lg:hidden">
+          <img src={HeroImageTablet} alt="Hero Image Tablet" />
+        </div>
+        <div className="hidden md:hidden lg:block">
+          <img src={HeroImageDesktop} alt="Hero Image Desktop" />
+        </div>
       </div>
       <div className="pt-8">
         <h1 className="text-3xl font-bold">
