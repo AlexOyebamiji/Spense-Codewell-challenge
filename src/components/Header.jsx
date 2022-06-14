@@ -1,7 +1,7 @@
 function Header() {
   return (
     <div>
-      <div className="bg-black text-white py-0 px-5 mx-auto h-20">
+      <div className="bg-black text-white py-0 px-5 mx-auto h-20 lg:flex justify-center">
         <p className="text-center">
           🎉To celebrate Spense's launch, we will be waiving all fees for the
           entire month of April.

@@ -5,8 +5,8 @@ import Checkmark from "../Spense Starter Files/Assets/Checkmark.svg";
 
 function FirstSection() {
   return (
-    <div className="py-0 px-5 bg-slate-200">
-      <div className="pt-8">
+    <div className="py-0 px-5 h-[48rem] bg-slate-200 md:h-[50rem] lg:flex justify-between items-center lg:px-24 lg:h-[35rem]">
+      <div className="pt-8 w-auto lg:pt-0 order-last lg:w-[25rem]">
         <div className="md:hidden lg:hidden">
           <img src={HeroImage} alt="Hero Image Mobile" />
         </div>
@@ -21,7 +21,7 @@ function FirstSection() {
         <h1 className="text-3xl font-bold md:w-[27rem]">
           Share your unfiltered thoughts. Get paid.
         </h1>
-        <p className="pt-2">
+        <p className="pt-2 lg:w-[35rem]">
           Spense is an open platform for individuals to share their unfiltered
           thoughts. Discuss the topics you love, and get paid for doing just
           that.
