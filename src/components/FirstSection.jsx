@@ -18,7 +18,7 @@ function FirstSection() {
         </div>
       </div>
       <div className="pt-8">
-        <h1 className="text-3xl font-bold">
+        <h1 className="text-3xl font-bold md:w-[27rem]">
           Share your unfiltered thoughts. Get paid.
         </h1>
         <p className="pt-2">
