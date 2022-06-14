@@ -2,7 +2,7 @@ function Footer() {
   return (
     <div>
       <div className="py-0 px-10 bg-black pb-10">
-        <div className="flex gap-9 pt-10 text-white md:flex-wrap">
+        <div className="flex flex-wrap gap-9 pt-10 text-white md:flex-wrap">
           <div className="md:basis-2/3">
             <h1 className="font-bold">spense.</h1>
             <p className=" ">
