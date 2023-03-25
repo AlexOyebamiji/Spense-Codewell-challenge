@@ -1,4 +1,3 @@
-import "./App.css";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import FirstSection from "./components/FirstSection";
@@ -9,7 +8,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <main>
       <Header />
       <Navbar />
       <FirstSection />
@@ -17,7 +16,7 @@ function App() {
       <ThirdSection />
       <FourthSection />
       <Footer />
-    </div>
+    </main>
   );
 }
 

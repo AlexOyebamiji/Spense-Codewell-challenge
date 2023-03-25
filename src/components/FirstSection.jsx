@@ -5,17 +5,17 @@ import Checkmark from "../Spense Starter Files/Assets/Checkmark.svg";
 
 function FirstSection() {
   return (
-    <div className="py-0 px-5 h-[48rem] bg-slate-200 md:h-[50rem] lg:flex justify-between items-center lg:px-24 lg:h-[35rem]">
+    <section className="py-0 px-5 h-[48rem] bg-slate-200 md:h-[50rem] lg:flex justify-between items-center lg:px-24 lg:h-[35rem]">
       <div className="pt-8 w-auto lg:pt-0 order-last lg:w-[25rem]">
-        <div className="md:hidden lg:hidden">
+        <figure className="md:hidden lg:hidden">
           <img src={HeroImage} alt="Hero Image Mobile" />
-        </div>
-        <div className="hidden md:block lg:hidden">
+        </figure>
+        <figure className="hidden md:block lg:hidden">
           <img src={HeroImageTablet} alt="Hero Image Tablet" />
-        </div>
-        <div className="hidden md:hidden lg:block">
+        </figure>
+        <figure className="hidden md:hidden lg:block">
           <img src={HeroImageDesktop} alt="Hero Image Desktop" />
-        </div>
+        </figure>
       </div>
       <div className="pt-8">
         <h1 className="text-3xl font-bold md:w-[27rem]">
@@ -52,7 +52,7 @@ function FirstSection() {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
