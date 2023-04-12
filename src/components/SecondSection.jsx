@@ -9,7 +9,10 @@ import slack from "../Spense Starter Files/Assets/Slack Logo.png";
 
 function SecondSection() {
   return (
-    <section className="my-10 px-5 flex gap-4 items-center lg:px-24">
+    <section
+      className="my-10 px-5 flex gap-4 items-center lg:px-24"
+      data-scroll-section
+    >
       <section className="flex gap-4 items-center">
         <figure>
           <img src={facebook} alt="Facebook logo" />

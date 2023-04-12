@@ -5,7 +5,10 @@ import Checkmark from "../Spense Starter Files/Assets/Checkmark.svg";
 
 function FirstSection() {
   return (
-    <section className="py-0 px-5 h-[48rem] bg-slate-200 md:h-[50rem] lg:flex justify-between items-center lg:px-24 lg:h-[35rem]">
+    <section
+      className="py-0 px-5 h-[48rem] bg-slate-200 md:h-[50rem] lg:flex justify-between items-center lg:px-24 lg:h-[35rem]"
+      data-scroll-section
+    >
       <div className="pt-8 w-auto lg:pt-0 order-last lg:w-[25rem]">
         <figure className="md:hidden lg:hidden">
           <img src={HeroImage} alt="Hero Image Mobile" />

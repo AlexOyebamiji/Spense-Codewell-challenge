@@ -1,7 +1,7 @@
 function Header() {
   return (
     <section>
-      <header className="bg-black text-white py-7 px-5 mx-auto lg:flex justify-center">
+      <header className="bg-black text-white py-7 px-5 mx-auto lg:flex justify-center" data-scroll-section>
         <p className="text-center">
           🎉To celebrate Spense's launch, we will be waiving all fees for the
           entire month of April.

@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <footer className="py-0 px-10 bg-black pb-10">
-      <section className="flex flex-wrap gap-9 pt-10 text-white md:flex-wrap lg:justify-center lg:gap-16">
+    <footer className="py-10 px-10 bg-black pb-10" data-scroll-section>
+      <section className="flex flex-wrap gap-9 text-white md:flex-wrap lg:justify-center lg:gap-16">
         <header className="md:basis-2/3 lg:basis-1/3">
           <h1 className="font-bold">spense.</h1>
           <p className="lg:w-[20rem]">
