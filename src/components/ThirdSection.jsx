@@ -4,14 +4,17 @@ import phoneMockupDesktop from "../Spense Starter Files/Assets/Phone Mockup (Des
 
 function ThirdSection() {
   return (
-    <section className="py-0 px-5 lg:flex justify-center items-center" data-scroll-section>
+    <section className="py-0 px-5 lg:flex justify-center items-center">
       <div className="bg-slate-100 w-auto md:w-[45rem] rounded-md lg:h-80 lg:w-[71rem]">
         <div className="lg:flex">
           <section className="pt-10 px-10 md:px-20">
-            <h1 className="pb-3 text-3xl font-bold w-[12rem] md:w-[20rem]">
+            <h1
+              className="pb-3 text-3xl font-bold w-[12rem] md:w-[20rem]"
+              data-animation="header"
+            >
               Secure your money with Escrow.
             </h1>
-            <p className="pb-2 md:w-[27rem]">
+            <p className="pb-2 md:w-[27rem]" data-animation="paragraph">
               Spense uses Escrow to secure all payments. We believe Escrow
               offers the highest level of security for your payments, so you
               never need to worry about scams.

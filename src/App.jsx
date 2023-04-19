@@ -5,12 +5,18 @@ import SecondSection from "./components/SecondSection";
 import ThirdSection from "./components/ThirdSection";
 import FourthSection from "./components/FourthSection";
 import Footer from "./components/Footer";
-import useLocoScroll from "./components/animations/useLocoScroll";
+import { split } from "./animations/text";
+import scroll from "./animations/scroll";
+import { useEffect } from "react";
+scroll();
 
 function App() {
-  useLocoScroll();
+  useEffect(() => {
+    split();
+    window.scrollTo(0, 0);
+  }, []);
   return (
-    <main data-scroll-container>
+    <main className="min-h-screen">
       <Header />
       <Navbar />
       <FirstSection />
