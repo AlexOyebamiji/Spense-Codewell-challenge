@@ -4,6 +4,9 @@ import { IO } from "./observe";
 
 export const split = () => {
   const header = document.querySelectorAll("[data-animation='header']");
+  const headerDelayed = document.querySelectorAll(
+    "[data-animation='headerDelayed']"
+  );
   const paragraph = document.querySelectorAll("[data-animation='paragraph']");
 
   paragraph.forEach((item) => {

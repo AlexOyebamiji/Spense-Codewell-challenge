@@ -8,13 +8,14 @@ import Footer from "./components/Footer";
 import { split } from "./animations/text";
 import scroll from "./animations/scroll";
 import { useEffect } from "react";
+
 scroll();
 
 function App() {
   useEffect(() => {
     split();
-    window.scrollTo(0, 0);
   }, []);
+
   return (
     <main className="min-h-screen">
       <Header />
