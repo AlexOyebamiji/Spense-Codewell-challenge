@@ -6,7 +6,7 @@ function Navbar() {
       className="flex py-10 px-5 mx-auto justify-between items-center bg-slate-200 lg:px-24"
       data-scroll-section
     >
-      <h1 className="font-bold">spense.</h1>
+      <h1 className="font-bold cursor-pointer">spense.</h1>
       <section>
         <figure className="md:hidden lg:hidden">
           <img src={HarmburgerMenu} alt="" />
