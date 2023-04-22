@@ -18,13 +18,10 @@ function FirstSection() {
         </figure>
       </div>
       <div className="mt-8">
-        <h1
-          className="text-3xl font-bold md:w-[27rem]"
-          data-animation="paragraph"
-        >
+        <h1 className="text-3xl font-bold md:w-[27rem]">
           Share your unfiltered thoughts. Get paid.
         </h1>
-        <p className="pt-6 lg:w-[35rem]" data-animation="paragraph">
+        <p className="pt-6 lg:w-[35rem]">
           Spense is an open platform for individuals to share their unfiltered
           thoughts. Discuss the topics you love, and get paid for doing just
           that.
@@ -32,22 +29,15 @@ function FirstSection() {
         <div className="pt-6">
           <p className="flex gap-4">
             <img src={Checkmark} alt="" />
-            <span data-animation="paragraph">
-              {" "}
-              Receive 99% off the earnings.
-            </span>
+            <span> Receive 99% off the earnings.</span>
           </p>
           <p className="flex gap-4 pt-2">
             <img src={Checkmark} alt="" />
-            <span data-animation="paragraph">
-              Get paid via Debit Card, ACH, or Paypal.
-            </span>
+            <span>Get paid via Debit Card, ACH, or Paypal.</span>
           </p>
           <p className="flex gap-4 pt-2">
             <img src={Checkmark} alt="" />
-            <span data-animation="paragraph">
-              Withdraw your earnings anytime.
-            </span>
+            <span>Withdraw your earnings anytime.</span>
           </p>
         </div>
         <div className="pt-4 flex flex-col md:flex-row items-start gap-4 pb-9">
