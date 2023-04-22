@@ -5,7 +5,7 @@ import phoneMockupDesktop from "../Spense Starter Files/Assets/Phone Mockup (Des
 function ThirdSection() {
   return (
     <section className="py-0 px-5 lg:flex justify-center items-center">
-      <div className="bg-slate-100 w-auto md:w-[45rem] rounded-md lg:h-80 lg:w-[71rem]">
+      <div className="bg-slate-100 w-auto md:w-[45rem] rounded-md lg:w-[71rem]">
         <div className="lg:flex">
           <section className="pt-10 px-10 md:px-20">
             <h1

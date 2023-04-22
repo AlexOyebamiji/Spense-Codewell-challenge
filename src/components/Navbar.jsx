@@ -14,13 +14,13 @@ function Navbar() {
         <section className="hidden md:block lg:block">
           <ul className="flex gap-5 font-semibold items-center">
             <li>
-              <a href="#">Business</a>
+              <a href="#business">Business</a>
             </li>
             <li>
-              <a href="#">Pricing</a>
+              <a href="#pricing">Pricing</a>
             </li>
             <li>
-              <a href="#">Features</a>
+              <a href="#features">Features</a>
             </li>
             <li className="lg:pl-[20rem]">
               <a href="#">Login</a>
